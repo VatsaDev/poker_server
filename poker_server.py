@@ -10,6 +10,11 @@ Usage:
 Defaults: host=localhost, port=9999, players=4, chips=1000, bb=20
 """
 
+import functools
+
+# Force all print statements to flush immediately for remote terminal stability
+print = functools.partial(print, flush=True)
+
 import socket
 import threading
 import json
@@ -431,6 +436,27 @@ class PokerServer:
             else:
                 act  = action.get("action", "fold")
                 amt  = action.get("amount", 0)
+
+                # ENFORCE MINIMUM $5 CONTRIBUTION (UNLESS FOLDING)
+                if act != "fold" and not p.all_in:
+                    # Calculate current delta they are putting in
+                    if act in ("call", "check"):
+                        delta = current_bet - p.bet
+                    elif act in ("raise", "bet"):
+                        delta = amt - p.bet
+                    elif act == "allin":
+                        delta = p.chips
+                    else:
+                        delta = 0
+
+                    if delta < 5:
+                        boosted_delta = min(5, p.chips)
+                        if boosted_delta > delta:
+                            # Upgrade check/call to bet/raise if needed to meet $5 floor
+                            if act in ("call", "check"):
+                                act = "bet" if current_bet == 0 else "raise"
+                            amt = p.bet + boosted_delta
+
                 pot_add += self._apply_action(p, act, amt, current_bet, street)
                 if act in ("raise", "bet"):
                     current_bet   = p.bet

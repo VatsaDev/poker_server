@@ -20,6 +20,7 @@ import threading
 import json
 import random
 import argparse
+import math
 import time
 import sys
 import os
@@ -429,48 +430,70 @@ class PokerServer:
 
             action = p.recv()
             if action is None or not p.active:
-                p.folded = True
-                self.broadcast({"type": "player_action", "pid": p.pid,
-                                "action": "fold", "street": street}, exclude=p)
-                acted.add(p.pid)
+                act = "timeout"
+                amt = 0
             else:
-                act  = action.get("action", "fold")
-                amt  = action.get("amount", 0)
+                act = action.get("action", "fold")
+                try:
+                    raw_amt = action.get("amount", 0)
+                    amt = float(raw_amt) if raw_amt is not None else 0
+                    if math.isnan(amt):
+                        amt = 0
+                        act = "nan_action"
+                except (ValueError, TypeError):
+                    amt = 0
+                    act = "invalid_action"
 
-                # ENFORCE MINIMUM $5 CONTRIBUTION (UNLESS FOLDING)
-                if act != "fold" and not p.all_in:
-                    # Calculate current delta they are putting in
-                    if act in ("call", "check"):
-                        delta = current_bet - p.bet
-                    elif act in ("raise", "bet"):
-                        delta = amt - p.bet
-                    elif act == "allin":
-                        delta = p.chips
-                    else:
-                        delta = 0
-
-                    if delta < 5:
-                        boosted_delta = min(5, p.chips)
-                        if boosted_delta > delta:
-                            # Upgrade check/call to bet/raise if needed to meet $5 floor
-                            if act in ("call", "check"):
-                                act = "bet" if current_bet == 0 else "raise"
-                            amt = p.bet + boosted_delta
-
-                pot_add += self._apply_action(p, act, amt, current_bet, street)
+            # MANDATORY $5 MINIMUM CONTRIBUTION (EXCEPT IF ALREADY ALL-IN)
+            if not p.all_in:
+                # Calculate current contribution delta
                 if act in ("raise", "bet"):
-                    current_bet   = p.bet
-                    last_aggressor = p.pid
-                    acted = {p.pid}   # others need to act again
+                    target_delta = amt - p.bet
+                elif act == "allin":
+                    target_delta = p.chips
                 else:
-                    acted.add(p.pid)
+                    # check, call, fold, timeout, nan
+                    target_delta = (current_bet - p.bet) if act in ("call", "check") else 0
+                
+                # Check if they contributed enough
+                if target_delta < 5:
+                    boost = min(5, p.chips)
+                    if boost > target_delta:
+                        # If they were checking/calling, update to bet/raise
+                        if act in ("call", "check"):
+                            act = "bet" if current_bet == 0 else "raise"
+                            amt = p.bet + boost
+                        elif act in ("raise", "bet"):
+                            amt = p.bet + boost
+                        else:
+                            # For fold/timeout/nan: strictly deduct the tax but don't change 'act'
+                            # We apply it manually here since _apply_action(fold) adds nothing
+                            tax = boost - target_delta
+                            p.chips    -= tax
+                            p.bet      += tax
+                            p.total_bet+= tax
+                            pot_add    += tax
+                            if p.chips == 0: p.all_in = True
 
-                self.db.log_action(self.current_hand_id, street, p.pid, act, amt if act in ("raise", "bet") else p.bet, p.chips)
-                self.db.update_hand_pot(self.current_hand_id, pot_so_far + pot_add)
+            pot_add += self._apply_action(p, act, amt, current_bet, street)
+            
+            # Map timeout/nan back to fold for logic flow if needed
+            if act in ("timeout", "nan_action", "invalid_action"):
+                p.folded = True
 
-                self.broadcast({"type": "player_action", "pid": p.pid,
-                                "action": act, "amount": p.bet,
-                                "chips": p.chips, "street": street}, exclude=p)
+            if act in ("raise", "bet"):
+                current_bet   = p.bet
+                last_aggressor = p.pid
+                acted = {p.pid}
+            else:
+                acted.add(p.pid)
+
+            self.db.log_action(self.current_hand_id, street, p.pid, act, amt if act in ("raise", "bet") else p.bet, p.chips)
+            self.db.update_hand_pot(self.current_hand_id, pot_so_far + pot_add)
+
+            self.broadcast({"type": "player_action", "pid": p.pid,
+                            "action": act, "amount": p.bet,
+                            "chips": p.chips, "street": street}, exclude=p)
 
             # Check round-end conditions
             active_can_act = [x for x in players if not x.folded and not x.all_in]

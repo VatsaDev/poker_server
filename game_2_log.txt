@@ -1,0 +1,382 @@
+[logger_bot] SHOWDOWN — winners: ['logger_bot']  pot=4185.0  best hand: Flush
+           Stacks: {'0': 0.0, '1': 0.0, '2': 975, '3': 995, '4': 0.0, '5': 995, '6': 995, '7': 995, '8': 995, '9': 995, '10': 4185.0, '11': 875.0, '12': 995}
+[logger_bot] logger_bot wins pot=850.0 (everyone_folded)
+           Stacks: {'2': 970, '3': 905.0, '5': 890.0, '6': 970, '7': 990, '8': 990, '9': 990, '10': 4520.0, '11': 785.0, '12': 990}
+[logger_bot] logger_bot wins pot=485.0 (everyone_folded)
+           Stacks: {'2': 965, '3': 900.0, '5': 885.0, '6': 955, '7': 965, '8': 985, '9': 985, '10': 4675.0, '11': 700.0, '12': 985}
+[logger_bot] logger_bot wins pot=1493.0 (everyone_folded)
+           Stacks: {'2': 960, '3': 895.0, '5': 880.0, '6': 950, '7': 950, '8': 678.0, '9': 980, '10': 5107.0, '11': 620.0, '12': 980}
+[logger_bot] SHOWDOWN — winners: ['logger_bot']  pot=7142.0  best hand: Two Pair
+           Stacks: {'2': 955, '3': 890.0, '5': 0, '6': 0, '7': 945, '8': 663.0, '9': 955, '10': 7142.0, '11': 475.0, '12': 975}
+[logger_bot] logger_bot wins pot=860.0 (everyone_folded)
+           Stacks: {'2': 930, '3': 885.0, '7': 940, '8': 658.0, '9': 950, '10': 7452.0, '11': 345.0, '12': 840.0}
+[logger_bot] logger_bot wins pot=430.0 (everyone_folded)
+           Stacks: {'2': 905, '3': 800.0, '7': 935, '8': 653.0, '9': 945, '10': 7597.0, '11': 340.0, '12': 825.0}
+[logger_bot] logger_bot wins pot=890.0 (everyone_folded)
+           Stacks: {'2': 890, '3': 775.0, '7': 930, '8': 648.0, '9': 940, '10': 7832.0, '11': 165.0, '12': 820.0}
+[logger_bot] logger_bot wins pot=145.0 (everyone_folded)
+           Stacks: {'2': 885, '3': 760.0, '7': 905, '8': 643.0, '9': 935, '10': 7897.0, '11': 160.0, '12': 815.0}
+[logger_bot] logger_bot wins pot=140.0 (everyone_folded)
+           Stacks: {'2': 880, '3': 755.0, '7': 890, '8': 618.0, '9': 930, '10': 7962.0, '11': 155.0, '12': 810.0}
+[logger_bot] logger_bot wins pot=135.0 (everyone_folded)
+           Stacks: {'2': 875, '3': 750.0, '7': 885, '8': 603.0, '9': 905, '10': 8027.0, '11': 150.0, '12': 805.0}
+[logger_bot] logger_bot wins pot=205.0 (everyone_folded)
+           Stacks: {'2': 870, '3': 745.0, '7': 880, '8': 598.0, '9': 890, '10': 8092.0, '11': 125.0, '12': 800.0}
+[logger_bot] logger_bot wins pot=165.0 (everyone_folded)
+           Stacks: {'2': 865, '3': 740.0, '7': 875, '8': 593.0, '9': 885, '10': 8147.0, '11': 100.0, '12': 795.0}
+[logger_bot] logger_bot wins pot=160.0 (everyone_folded)
+           Stacks: {'2': 860, '3': 735.0, '7': 870, '8': 588.0, '9': 880, '10': 8212.0, '11': 85.0, '12': 770.0}
+[logger_bot] logger_bot wins pot=155.0 (everyone_folded)
+           Stacks: {'2': 835, '3': 730.0, '7': 865, '8': 583.0, '9': 875, '10': 8277.0, '11': 80.0, '12': 755.0}
+[logger_bot] logger_bot wins pot=1460.0 (everyone_folded)
+           Stacks: {'2': 820, '3': 375.0, '7': 860, '8': 578.0, '9': 870, '10': 8672.0, '11': 75.0, '12': 750.0}
+[logger_bot] logger_bot wins pot=145.0 (everyone_folded)
+           Stacks: {'2': 815, '3': 360.0, '7': 835, '8': 573.0, '9': 865, '10': 8737.0, '11': 70.0, '12': 745.0}
+[logger_bot] SHOWDOWN — winners: ['Player_3']  pot=9157.0  best hand: One Pair
+           Stacks: {'2': 810, '3': 9157.0, '7': 820, '8': 548.0, '9': 860, '10': 0.0, '11': 65.0, '12': 740.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'2': 805, '3': 9152.0, '7': 815, '8': 543.0, '9': 855, '11': 50.0, '12': 780.0}
+[logger_bot] macronyx wins pot=80 (everyone_folded)
+           Stacks: {'2': 780, '3': 9147.0, '7': 810, '8': 538.0, '9': 850, '11': 45.0, '12': 830.0}
+[logger_bot] jahyun_koo wins pot=192.0 (everyone_folded)
+           Stacks: {'2': 876.0, '3': 9076.0, '7': 805, '8': 533.0, '9': 845, '11': 40.0, '12': 825.0}
+[logger_bot] jahyun_koo wins pot=80 (everyone_folded)
+           Stacks: {'2': 936.0, '3': 9061.0, '7': 780, '8': 528.0, '9': 840, '11': 35.0, '12': 820.0}
+[logger_bot] yoga4 wins pot=60 (everyone_folded)
+           Stacks: {'2': 931.0, '3': 9056.0, '7': 765, '8': 568.0, '9': 835, '11': 30.0, '12': 815.0}
+[logger_bot] Player_3 wins pot=9116.0 (everyone_folded)
+           Stacks: {'2': 926.0, '3': 9116.0, '7': 760, '8': 553.0, '9': 810, '11': 25.0, '12': 810.0}
+[logger_bot] SHOWDOWN — winners: ['yoga3']  pot=1488.0  best hand: One Pair
+           Stacks: {'2': 901.0, '3': 9011.0, '7': 1488.0, '8': 0, '9': 795, '11': 0.0, '12': 805.0}
+[logger_bot] yoga3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 896.0, '3': 8996.0, '7': 1518.0, '9': 790, '12': 800.0}
+[logger_bot] macronyx wins pot=70 (everyone_folded)
+           Stacks: {'2': 891.0, '3': 8991.0, '7': 1503.0, '9': 765, '12': 850.0}
+[logger_bot] yoga3 wins pot=70 (everyone_folded)
+           Stacks: {'2': 886.0, '3': 8986.0, '7': 1553.0, '9': 750, '12': 825.0}
+[logger_bot] SHOWDOWN — winners: ['Player_3']  pot=9066.0  best hand: Two Pair
+           Stacks: {'2': 861.0, '3': 9066.0, '7': 1548.0, '9': 745, '12': 780.0}
+[logger_bot] Player_3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 846.0, '3': 9096.0, '7': 1543.0, '9': 740, '12': 775.0}
+[logger_bot] yoga3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 841.0, '3': 9081.0, '7': 1573.0, '9': 735, '12': 770.0}
+[logger_bot] yoga5 wins pot=50 (everyone_folded)
+           Stacks: {'2': 836.0, '3': 9076.0, '7': 1558.0, '9': 765, '12': 765.0}
+[logger_bot] macronyx wins pot=50 (everyone_folded)
+           Stacks: {'2': 831.0, '3': 9071.0, '7': 1553.0, '9': 750, '12': 795.0}
+[logger_bot] macronyx wins pot=175.0 (everyone_folded)
+           Stacks: {'2': 806.0, '3': 9006.0, '7': 1548.0, '9': 745, '12': 895.0}
+[logger_bot] Player_3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 791.0, '3': 9036.0, '7': 1543.0, '9': 740, '12': 890.0}
+[logger_bot] macronyx wins pot=174.0 (everyone_folded)
+           Stacks: {'2': 786.0, '3': 8959.0, '7': 1518.0, '9': 735, '12': 1002.0}
+[logger_bot] yoga5 wins pot=50 (everyone_folded)
+           Stacks: {'2': 781.0, '3': 8954.0, '7': 1503.0, '9': 765, '12': 997.0}
+[logger_bot] Player_3 wins pot=70 (everyone_folded)
+           Stacks: {'2': 776.0, '3': 9004.0, '7': 1498.0, '9': 750, '12': 972.0}
+[logger_bot] jahyun_koo wins pot=50 (everyone_folded)
+           Stacks: {'2': 806.0, '3': 8999.0, '7': 1493.0, '9': 745, '12': 957.0}
+[logger_bot] Player_3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 791.0, '3': 9029.0, '7': 1488.0, '9': 740, '12': 952.0}
+[logger_bot] yoga3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 786.0, '3': 9014.0, '7': 1518.0, '9': 735, '12': 947.0}
+[logger_bot] Player_3 wins pot=105.0 (everyone_folded)
+           Stacks: {'3': 9059.0, '7': 1513.0, '9': 720, '12': 922.0}
+[logger_bot] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 9084.0, '7': 1508.0, '9': 715, '12': 907.0}
+[logger_bot] macronyx wins pot=65 (everyone_folded)
+           Stacks: {'3': 9069.0, '7': 1483.0, '9': 710, '12': 952.0}
+[logger_bot] macronyx wins pot=997.0 (everyone_folded)
+           Stacks: {'3': 9064.0, '7': 1468.0, '9': 685, '12': 997.0}
+[logger_bot] yoga5 wins pot=1720.0 (everyone_folded)
+           Stacks: {'3': 8059.0, '7': 1463.0, '9': 1720.0, '12': 972.0}
+[logger_bot] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8084.0, '7': 1458.0, '9': 1715.0, '12': 957.0}
+[logger_bot] yoga3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8069.0, '7': 1483.0, '9': 1710.0, '12': 952.0}
+[logger_bot] macronyx wins pot=65 (everyone_folded)
+           Stacks: {'3': 8064.0, '7': 1468.0, '9': 1685.0, '12': 997.0}
+[logger_bot] SHOWDOWN — winners: ['Player_3']  pot=8139.0  best hand: Three of a Kind
+           Stacks: {'3': 8139.0, '7': 1463.0, '9': 1670.0, '12': 942.0}
+[logger_bot] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8164.0, '7': 1458.0, '9': 1665.0, '12': 927.0}
+[logger_bot] yoga3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8149.0, '7': 1483.0, '9': 1660.0, '12': 922.0}
+[logger_bot] yoga5 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8144.0, '7': 1468.0, '9': 1685.0, '12': 917.0}
+[logger_bot] macronyx wins pot=45 (everyone_folded)
+           Stacks: {'3': 8139.0, '7': 1463.0, '9': 1670.0, '12': 942.0}
+[logger_bot] macronyx wins pot=65 (everyone_folded)
+           Stacks: {'3': 8114.0, '7': 1458.0, '9': 1665.0, '12': 977.0}
+[logger_bot] Player_3 wins pot=125.0 (everyone_folded)
+           Stacks: {'3': 8149.0, '7': 1433.0, '9': 1660.0, '12': 972.0}
+[logger_bot] SHOWDOWN — winners: ['yoga5']  pot=110  best hand: Three of a Kind
+           Stacks: {'3': 8144.0, '7': 1418.0, '9': 1715.0, '12': 937.0}
+[logger_bot] macronyx wins pot=210.0 (everyone_folded)
+           Stacks: {'3': 8059.0, '7': 1413.0, '9': 1700.0, '12': 1042.0}
+[logger_bot] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8084.0, '7': 1408.0, '9': 1695.0, '12': 1027.0}
+[logger_bot] yoga3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8069.0, '7': 1433.0, '9': 1690.0, '12': 1022.0}
+[logger_bot] macronyx wins pot=65 (everyone_folded)
+           Stacks: {'3': 8064.0, '7': 1418.0, '9': 1665.0, '12': 1067.0}
+[logger_bot] Player_3 wins pot=65 (everyone_folded)
+           Stacks: {'3': 8109.0, '7': 1413.0, '9': 1650.0, '12': 1042.0}
+[logger_bot] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8134.0, '7': 1408.0, '9': 1645.0, '12': 1027.0}
+[logger_bot] Player_3 wins pot=105.0 (everyone_folded)
+           Stacks: {'3': 8169.0, '7': 1383.0, '9': 1640.0, '12': 1022.0}
+[logger_bot] Player_3 wins pot=105.0 (everyone_folded)
+           Stacks: {'3': 8214.0, '7': 1368.0, '9': 1615.0, '12': 1017.0}
+[logger_bot] macronyx wins pot=45 (everyone_folded)
+           Stacks: {'3': 8209.0, '7': 1363.0, '9': 1600.0, '12': 1042.0}
+[logger_bot] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8234.0, '7': 1358.0, '9': 1595.0, '12': 1027.0}
+[logger_bot] yoga3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8219.0, '7': 1383.0, '9': 1590.0, '12': 1022.0}
+[logger_bot] Player_3 wins pot=105.0 (everyone_folded)
+           Stacks: {'3': 8264.0, '7': 1368.0, '9': 1565.0, '12': 1017.0}
+[logger_bot] macronyx wins pot=45 (everyone_folded)
+           Stacks: {'3': 8259.0, '7': 1363.0, '9': 1550.0, '12': 1042.0}
+[logger_bot] macronyx wins pot=170.0 (everyone_folded)
+           Stacks: {'3': 8174.0, '7': 1358.0, '9': 1545.0, '12': 1137.0}
+[logger_bot] yoga3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8159.0, '7': 1383.0, '9': 1540.0, '12': 1132.0}
+[logger_bot] yoga5 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8154.0, '7': 1368.0, '9': 1565.0, '12': 1127.0}
+[logger_bot] SHOWDOWN — winners: ['yoga3']  pot=8259.0  best hand: Two Pair
+           Stacks: {'3': 0, '7': 9592.0, '9': 1550.0, '12': 1072.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9577.0, '9': 1570.0, '12': 1067.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9572.0, '9': 1555.0, '12': 1087.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9592.0, '9': 1550.0, '12': 1072.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9577.0, '9': 1570.0, '12': 1067.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9572.0, '9': 1555.0, '12': 1087.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9592.0, '9': 1550.0, '12': 1072.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9577.0, '9': 1525.0, '12': 1112.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9572.0, '9': 1510.0, '12': 1132.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9547.0, '9': 1505.0, '12': 1162.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9532.0, '9': 1480.0, '12': 1202.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9527.0, '9': 1465.0, '12': 1222.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9502.0, '9': 1460.0, '12': 1252.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9487.0, '9': 1480.0, '12': 1247.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9482.0, '9': 1465.0, '12': 1267.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9502.0, '9': 1460.0, '12': 1252.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9487.0, '9': 1480.0, '12': 1247.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9482.0, '9': 1465.0, '12': 1267.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9457.0, '9': 1460.0, '12': 1297.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9442.0, '9': 1480.0, '12': 1292.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9437.0, '9': 1465.0, '12': 1312.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9457.0, '9': 1460.0, '12': 1297.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9442.0, '9': 1480.0, '12': 1292.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9437.0, '9': 1465.0, '12': 1312.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9457.0, '9': 1460.0, '12': 1297.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9442.0, '9': 1435.0, '12': 1337.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9437.0, '9': 1420.0, '12': 1357.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9457.0, '9': 1415.0, '12': 1342.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9442.0, '9': 1435.0, '12': 1337.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9437.0, '9': 1420.0, '12': 1357.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9412.0, '9': 1415.0, '12': 1387.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9397.0, '9': 1435.0, '12': 1382.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9392.0, '9': 1420.0, '12': 1402.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9412.0, '9': 1415.0, '12': 1387.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9397.0, '9': 1435.0, '12': 1382.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9392.0, '9': 1420.0, '12': 1402.0}
+[logger_bot] SHOWDOWN — winners: ['yoga5']  pot=145.0  best hand: One Pair
+           Stacks: {'7': 9367.0, '9': 1510.0, '12': 1337.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9352.0, '9': 1530.0, '12': 1332.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9347.0, '9': 1515.0, '12': 1352.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9322.0, '9': 1510.0, '12': 1382.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9307.0, '9': 1485.0, '12': 1422.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9302.0, '9': 1470.0, '12': 1442.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1465.0, '12': 1472.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1440.0, '12': 1512.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1425.0, '12': 1532.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1420.0, '12': 1517.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1440.0, '12': 1512.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1425.0, '12': 1532.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1420.0, '12': 1517.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1395.0, '12': 1557.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1380.0, '12': 1577.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1375.0, '12': 1562.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1395.0, '12': 1557.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1380.0, '12': 1577.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1375.0, '12': 1562.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1395.0, '12': 1557.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1380.0, '12': 1577.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1375.0, '12': 1562.0}
+[logger_bot] yoga5 wins pot=125.0 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1435.0, '12': 1517.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1420.0, '12': 1537.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1415.0, '12': 1522.0}
+[logger_bot] SHOWDOWN — winners: ['yoga5']  pot=105
+           Stacks: {'7': 9262.0, '9': 1465.0, '12': 1487.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1450.0, '12': 1507.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1445.0, '12': 1492.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1465.0, '12': 1487.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1450.0, '12': 1507.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1445.0, '12': 1492.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1420.0, '12': 1532.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1405.0, '12': 1552.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9232.0, '9': 1400.0, '12': 1582.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9217.0, '9': 1420.0, '12': 1577.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9212.0, '9': 1405.0, '12': 1597.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9232.0, '9': 1400.0, '12': 1582.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9217.0, '9': 1420.0, '12': 1577.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9212.0, '9': 1405.0, '12': 1597.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9232.0, '9': 1400.0, '12': 1582.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9217.0, '9': 1375.0, '12': 1622.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9212.0, '9': 1360.0, '12': 1642.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9232.0, '9': 1355.0, '12': 1627.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9217.0, '9': 1375.0, '12': 1622.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9212.0, '9': 1360.0, '12': 1642.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9232.0, '9': 1355.0, '12': 1627.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9217.0, '9': 1330.0, '12': 1667.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9212.0, '9': 1315.0, '12': 1687.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9187.0, '9': 1310.0, '12': 1717.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9172.0, '9': 1330.0, '12': 1712.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9167.0, '9': 1315.0, '12': 1732.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9187.0, '9': 1310.0, '12': 1717.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9172.0, '9': 1330.0, '12': 1712.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9167.0, '9': 1315.0, '12': 1732.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9142.0, '9': 1310.0, '12': 1762.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9127.0, '9': 1330.0, '12': 1757.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9122.0, '9': 1315.0, '12': 1777.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9142.0, '9': 1310.0, '12': 1762.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9127.0, '9': 1330.0, '12': 1757.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9122.0, '9': 1315.0, '12': 1777.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9142.0, '9': 1310.0, '12': 1762.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9127.0, '9': 1330.0, '12': 1757.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9122.0, '9': 1315.0, '12': 1777.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9142.0, '9': 1310.0, '12': 1762.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9127.0, '9': 1330.0, '12': 1757.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9122.0, '9': 1315.0, '12': 1777.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9097.0, '9': 1310.0, '12': 1807.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9082.0, '9': 1330.0, '12': 1802.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9077.0, '9': 1315.0, '12': 1822.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9097.0, '9': 1310.0, '12': 1807.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9082.0, '9': 1330.0, '12': 1802.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9077.0, '9': 1315.0, '12': 1822.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9097.0, '9': 1310.0, '12': 1807.0}
+[logger_bot] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9082.0, '9': 1285.0, '12': 1847.0}
+[logger_bot] yoga5 wins pot=80.0 (everyone_folded)
+           Stacks: {'7': 9077.0, '9': 1315.0, '12': 1822.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9097.0, '9': 1310.0, '12': 1807.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9082.0, '9': 1330.0, '12': 1802.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9077.0, '9': 1315.0, '12': 1822.0}
+[logger_bot] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9097.0, '9': 1310.0, '12': 1807.0}
+[logger_bot] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9082.0, '9': 1330.0, '12': 1802.0}
+[logger_bot] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9077.0, '9': 1315.0, '12': 1822.0}
+[logger_bot] macronyx wins pot=102.0 (everyone_folded)
+           Stacks: {'7': 9052.0, '9': 1310.0, '12': 1852.0
